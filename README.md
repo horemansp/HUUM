@@ -1,1 +1,1 @@
-# HUUM
+# HUUM sauna controller
