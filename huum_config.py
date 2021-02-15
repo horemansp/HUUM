@@ -1,2 +1,2 @@
-usern='horemansp@hotmail.com'
-passw = 'Rejector@123'
+usern='enter your username here'
+passw = 'enter your password here'
