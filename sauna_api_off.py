@@ -1,7 +1,4 @@
 import requests
-import huum_config
-#
-
 
 url = 'https://api.huum.eu/action/home/stop'
 #enter your username and password from app
