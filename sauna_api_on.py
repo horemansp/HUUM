@@ -1,9 +1,5 @@
 
 import requests
-import huum_config
-
-#
-
 
 url = 'https://api.huum.eu/action/home/start'
 myobj = {'targetTemperature' : 40}
