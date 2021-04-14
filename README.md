@@ -1,7 +1,7 @@
 # HUUM sauna controller
 
 GET - api.huum.eu/action/home/status - returns your current sauna status</br>
-POST - api.huum.eu/action/home/start?tartetTemperature=80 - wants targetTemperature as a parameter, which must be a number between 40 and 110, turns on the sauna for 3h</br>
+POST - api.huum.eu/action/home/start?targetTemperature=80 - wants targetTemperature as a parameter, which must be a number between 40 and 110, turns on the sauna for 3h</br>
 POST - api.huum.eu/action/home/stop - turns off the sauna</br>
 Basic authentication should be used and all requests must be over a https connection. The username and password are the same as in the app and the user must be connected to a sauna.</br>
 All requests return the current state of the sauna in JSON: ({"statusCode": 232, "door": true, "temperature": "23", "targetTemperature": "50", "startDate": 1507184846, "endDate": 1507184846, "duration": 0, "config": 2, "steamerError": 0, "paymentEndDate" : SOMEDATE})</br>
