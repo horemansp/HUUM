@@ -25,3 +25,4 @@ config: </br>
   3 shows that the controller is configured to use both the light and steamer system .</br>
 steamerError: if 1 then the steamer is empty of water and needs to be refilled also no steamer start is allowed</br>
 paymentEndDate: shows the date when the payment period is ending. Only relevant for GSM controllers with our SIM card.</br>
+GET - api.huum.eu/action/home/light - switches the light
